@@ -26,6 +26,7 @@ def plot_histogram(image):
 
 def main():
     image = np.random.randint(0, 256, size=(100, 100)).astype(np.uint8)
+    # plt.imshow(, cmap='gray')
 
     while True:
         print("\n1. Linear Mapping")
