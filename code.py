@@ -23,6 +23,7 @@ def plot_histogram(image):
     plt.title('Histogram')
     plt.show()
 
+
 def main():
     image = np.random.randint(0, 256, size=(100, 100)).astype(np.uint8)
 
